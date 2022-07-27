@@ -1,1 +1,1 @@
-# heroku-store
+## https://rss-store.herokuapp.com
