@@ -1,0 +1,20 @@
+.slider-round {
+    height: 10px !important;
+}
+
+.slider-round .noUi-connect {
+    background: #435452;
+}
+
+.slider-round .noUi-handle {
+    height: 18px !important;
+    width: 18px !important;
+    top: -5px !important;
+    right: -9px !important; /* half the width */
+    border-radius: 9px !important;
+}
+
+.slider-round .noUi-handle:before,
+.slider-round .noUi-handle:after {
+    content: none;
+}

@@ -1,0 +1,41 @@
+.sort_button {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.main_sort {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sort_header {
+    margin-right: 1rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .main_sort {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .sort_button {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+    .sort_button,
+    .sort_header {
+        max-width: 3rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .sort_icon {
+        display: none;
+    }
+}

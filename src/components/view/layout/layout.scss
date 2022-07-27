@@ -1,0 +1,36 @@
+.store_header {
+    flex: 0 0 auto;
+}
+
+.store_main {
+    display: flex;
+    flex-direction: row;
+}
+
+.store_filters {
+    display: flex;
+    flex-direction: column;
+    min-width: 12rem;
+}
+
+.store_goods {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: baseline;
+}
+
+.store_footer {
+    flex: 0 0 auto;
+}
+
+.store_sorts {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 320px) {
+    .store_main {
+        flex-direction: column;
+    }
+}

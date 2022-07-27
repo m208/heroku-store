@@ -1,0 +1,46 @@
+.goods-card {
+    width: 13rem;
+}
+
+.card_content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    padding: 0.5rem 0.5rem;
+    font-size: 1em;
+}
+
+.card_content_header {
+    height: 100%;
+}
+
+.card_list {
+    line-height: 1em;
+}
+
+.card_button_text {
+    font-size: 0.9em;
+}
+
+.card_active {
+    box-shadow: 0 0 1rem -0.3rem rgb(255 10 25 / 69%);
+    border: 1px solid transparent !important;
+}
+
+@media only screen and (max-width: 1200px) {
+    .goods-card {
+        width: 14rem;
+    }
+}
+
+@media only screen and (max-width: 76px) {
+    .goods-card {
+        width: 15rem;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+    .goods-card {
+        width: 100%;
+    }
+}
